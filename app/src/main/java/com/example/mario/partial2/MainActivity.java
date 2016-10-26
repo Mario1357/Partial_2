@@ -109,6 +109,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void reset(View view) {
+        rest.setEnabled(false);
         sta.setEnabled(true);
         tiempo.setText("30");
         TextView incc = (TextView) findViewById(R.id.incorrect);
